@@ -69,3 +69,9 @@ public extension KingfisherWrapper where Base == KFCrossPlatformImageView {
         .init(self)
     }
 }
+
+public extension KingfisherWrapper where Base == KFCrossPlatformButton {
+    var rx: KingfisherWrapper.Rx {
+        .init(self)
+    }
+}
